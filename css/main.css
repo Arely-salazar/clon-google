@@ -64,3 +64,32 @@ nav .nav-right-section img{
 
 }
 
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* PRINCIPAL*/
+
+main{
+    margin-top: 50px;
+    /* Centrar elementos */
+    text-align: center;
+}
+/* Imagen - logo */
+main .main-logo img{
+    width: 270px;
+    height: 100px;
+    margin: 0 auto;
+    margin: 5px;
+    
+}
+
+main .main-barra-navegacion{
+    height: 100px;
+    justify-content: center;
+}
+
+main .main-input{
+    border-radius: 30px;
+    width: 560px;
+    height: 40px;
+}

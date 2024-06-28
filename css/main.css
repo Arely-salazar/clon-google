@@ -1,0 +1,66 @@
+ body{
+    /* Margen predeterminado de las páginas web */
+    margin: 0;
+    /* Margen pa' dentro */
+    padding: 0;
+    /* Tamaño de fuente */
+    font-size: 13px;
+    /* Fuente de texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Color de fondo */
+    /*background-color: rgb(36, 34, 34);*/
+}
+
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* NAVEGACIÓN*/
+
+header{
+    /* Anchura */
+    width: 100%;
+    /* Altura */
+    height: 50px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+/* Sección de las Anclas */
+header nav .nav-right-section{
+    /*Eliminar viñetas */
+    list-style: none;
+    /*background-color: aquamarine;*/
+    width: 210px;
+    /* Hacer el elemento flexible */
+    display: flex;
+    /* Centrar los elementos */
+    justify-content: center;
+    /* Centrado vertical */
+    align-items: center ;
+    height: 40px;
+    padding-right: 0px;
+}
+
+/* Anclas */
+nav .nav-right-section a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/0000000/circled-menu.png);
+    width:20px;
+    height: 20px;
+    background-size: contain;
+}
+
+nav .nav-right-section img{
+    margin-right: 10px;
+    border-radius: 80px;
+
+}
+

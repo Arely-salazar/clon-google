@@ -73,23 +73,79 @@ main{
     margin-top: 50px;
     /* Centrar elementos */
     text-align: center;
+    height: 450px;
 }
 /* Imagen - logo */
 main .main-logo img{
     width: 270px;
-    height: 100px;
+    height: 90px;
     margin: 0 auto;
     margin: 5px;
+    margin-bottom: 20px;
+}
+/* INPUT SECTION */
+main .main-barra-navegacion{
+    width: 600px;
+    /* CENTRAR ELEMENTOS*/
+    margin: 0 auto;
+    /* MARGEN INFERIOR */
+    margin-bottom: 10px;
     
 }
 
-main .main-barra-navegacion{
-    height: 100px;
-    justify-content: center;
+main .main-input-container{
+    width: 580px;
+    /* BORDE DE COLOR: ANCHURA DE LÍNEA, ESTILO, COLOR  */
+    border: 1px solid #dfe1e5;
+    border-radius: 40px;
+    height: 47px;
+    /* CENTRAR ELEMENTOS*/
+    margin: 0 auto;
 }
 
-main .main-input{
-    border-radius: 30px;
-    width: 560px;
-    height: 40px;
+main .main-input-container:hover{
+    /* Dar sombra al pasar el mouse La sombra es de 0px en el eje 
+    X, 4px en el eje Y, y tiene un difuminado de 8px con una opacidad 
+    de 0.3  */
+    box-shadow: 0 3px 6px rgba(127, 125, 125, 0.2);
+
+}
+
+main .main-barra-navegacion input{
+    width: 400px;
+    height: 40px ;
+    border-style: none;
+    /* Eliminar los bordes el input al seleccionarlo */
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+main .main-barra-navegacion .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    /* Conttenedor los elementos */
+    background-size: contain;
+    background-position: center;
+    padding-left: 40px;
+    
+    /* Para elementos repetidos */
+    background-repeat: no-repeat;
+}
+
+main .main-barra-navegacion .micro-icon{
+    background-image: url("/img/voz-de-google.png");
+    /* Conttenedor los elementos */
+    background-size: contain;
+    background-position: center;
+    padding-left: 15px;
+}
+
+main .main-barra-navegacion .cam-icon{
+    background-image: url("/img/google-lens.png");
+    /* Conttenedor los elementos */
+    background-size: contain;
+    background-position: center;
+    padding-right: 16px;
+
 }

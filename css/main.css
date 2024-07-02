@@ -17,6 +17,7 @@
 /* NAVEGACIÓN*/
 
 header{
+    border: rgb(46, 0, 17);
     /* Anchura */
     width: 100%;
     /* Altura */
@@ -33,22 +34,21 @@ header nav .nav-right-section{
     /*Eliminar viñetas */
     list-style: none;
     /*background-color: aquamarine;*/
-    width: 210px;
+    width: 220px;
     /* Hacer el elemento flexible */
     display: flex;
     /* Centrar los elementos */
     justify-content: center;
     /* Centrado vertical */
     align-items: center ;
-    height: 40px;
-    padding-right: 0px;
+    height: 30px;
 }
 
 /* Anclas */
 nav .nav-right-section a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 14px;
+    padding: 0 10px;
 }
 
 nav .nav-right-section .menu{
@@ -59,7 +59,7 @@ nav .nav-right-section .menu{
 }
 
 nav .nav-right-section img{
-    margin-right: 10px;
+    margin-right: 6px;
     border-radius: 80px;
 
 }
@@ -73,7 +73,7 @@ main{
     margin-top: 50px;
     /* Centrar elementos */
     text-align: center;
-    height: 450px;
+    height: 497px;
 }
 /* Imagen - logo */
 main .main-logo img{
@@ -101,6 +101,7 @@ main .main-input-container{
     height: 47px;
     /* CENTRAR ELEMENTOS*/
     margin: 0 auto;
+    align-content: space-between;
 }
 
 main .main-input-container:hover{
@@ -108,17 +109,17 @@ main .main-input-container:hover{
     X, 4px en el eje Y, y tiene un difuminado de 8px con una opacidad 
     de 0.3  */
     box-shadow: 0 3px 6px rgba(127, 125, 125, 0.2);
-
+   
 }
 
 main .main-barra-navegacion input{
-    width: 400px;
+    width: 450px;
     height: 40px ;
+    /*Sin bordes*/
     border-style: none;
     /* Eliminar los bordes el input al seleccionarlo */
     outline: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 10px; 
 }
 
 
@@ -127,8 +128,7 @@ main .main-barra-navegacion .search-icon{
     /* Conttenedor los elementos */
     background-size: contain;
     background-position: center;
-    padding-left: 40px;
-    
+    padding-left: 12px;  
     /* Para elementos repetidos */
     background-repeat: no-repeat;
 }
@@ -138,7 +138,9 @@ main .main-barra-navegacion .micro-icon{
     /* Conttenedor los elementos */
     background-size: contain;
     background-position: center;
-    padding-left: 15px;
+    padding: 12px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
 }
 
 main .main-barra-navegacion .cam-icon{
@@ -146,6 +148,90 @@ main .main-barra-navegacion .cam-icon{
     /* Conttenedor los elementos */
     background-size: contain;
     background-position: center;
-    padding-right: 16px;
+    padding: 12px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
 
 }
+
+main .main-buttons{
+
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    /* Alinear elementos en la misma línea */ 
+    display: inline;
+}
+
+main .main-buttons button{
+    /* Separador entre el buscador y los botones */
+    margin-top: 15px;
+    /* color de fondo */
+    background-color: #f8f9fa;
+    /* Eliminar el borde negro  -- None or 0px*/
+    border: 0px;
+    /* Color de texto */
+    color: #3c4043;
+    /* Tamaño de fuente */
+    font-size: 14px;
+    /* Tamaño de botones*/
+    height: 38px;
+    /* bordes */
+    border-radius: 5px;
+    /* margen entre los botones */
+    margin-right: 9px;
+    padding: 0 15px;
+}
+main .main-buttons button:hover{
+    /* Cambiar el color de ña fuente */
+    color: #202124;
+    /* agregarle color al borde */
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px 1px rgb(0, 0, 0,)
+}
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* ***************************************************************************************************************** */
+/* FOOTER*/
+footer{
+    background-color: #ecedee;
+    width: 100%;
+}
+
+footer section .footer-div{
+    border-bottom: 1px solid #dadce0;
+    font-size: 16px;
+    color: #202124;
+    padding: 15px 30px;
+    height: 50%;
+
+}
+
+footer .footer-info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+.footer-info .nav-left-section .ul-left, 
+.footer-info .nav-rigth-section .ul-rigth{
+    list-style: none;
+    display: flex; 
+    padding-right: 25px;
+}
+
+.nav-left-section .ul-left a,
+.nav-rigth-section .ul-rigth a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #202124;
+    padding-right: 20px;
+
+}
+
+
+

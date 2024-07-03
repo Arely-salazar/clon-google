@@ -81,7 +81,7 @@ main .main-logo img{
     height: 90px;
     margin: 0 auto;
     margin: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 /* INPUT SECTION */
 main .main-barra-navegacion{
@@ -89,16 +89,16 @@ main .main-barra-navegacion{
     /* CENTRAR ELEMENTOS*/
     margin: 0 auto;
     /* MARGEN INFERIOR */
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     
 }
 
 main .main-input-container{
-    width: 580px;
+    width: 575px;
     /* BORDE DE COLOR: ANCHURA DE LÍNEA, ESTILO, COLOR  */
     border: 1px solid #dfe1e5;
     border-radius: 40px;
-    height: 47px;
+    height: 45px;
     /* CENTRAR ELEMENTOS*/
     margin: 0 auto;
     align-content: space-between;
@@ -178,7 +178,7 @@ main .main-buttons button{
     /* Tamaño de botones*/
     height: 38px;
     /* bordes */
-    border-radius: 5px;
+    border-radius: 4px;
     /* margen entre los botones */
     margin-right: 9px;
     padding: 0 15px;
@@ -204,8 +204,6 @@ footer section .footer-div{
     font-size: 16px;
     color: #202124;
     padding: 15px 30px;
-    height: 50%;
-
 }
 
 footer .footer-info{
@@ -213,8 +211,9 @@ footer .footer-info{
     justify-content:space-between;
     align-items: center;
     height: 50px;
+    /* Permite que los elementos se envuelvan cuando el espacio es reducido */
+    flex-wrap: wrap;
 }
-
 
 
 .footer-info .nav-left-section .ul-left, 
